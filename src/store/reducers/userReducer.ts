@@ -1,6 +1,6 @@
 import { UserAction, UserActionTypes, UserState } from "../../types/user";
 
-const initialState = {
+const initialState: UserState = {
   users: [],
   loading: false,
   error: null,
